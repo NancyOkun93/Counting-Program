@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Counting Application</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="counting.js"></script>
+
+</head>
+<body>
+	<div id="background"></div>
+	<div id="overlay"></div>
+	<div id="container" >
+
+
+		<h1> Counting </h1>
+
+		<p id="demo"></p>
+<div id="wrapper">
+	
+		<div id=databox>
+			<form name="info">
+				<p>Please enter your name: <input type="text" name="nameBox"/> </p>
+				<p>Please enter a number 1 to 100: <input type="text" name="numBox" /> </p>
+				<input type="button" value="Calculate" onClick="doCount(info.nameBox.value, info.numBox.value)" />
+			</form>
+
+		</div>
+
+
+		<div id="outputArea">
+</div>
+		</div>
+
+    </div>
+
+</body>
+</html>
